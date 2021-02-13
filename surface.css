@@ -1,0 +1,57 @@
+.mainPic {
+    background-image: url(./media/pic1.jpg);
+}
+
+.pic1{
+    background-image: url(./media/pic1.jpg);
+}
+.pic2{
+    background-image: url(./media/pic2.jpg);
+}
+.pic3{
+    background-image: url(./media/pic3.jpg);
+}
+.pic4 {
+    background-image: url(./media/mainPIc.jpg);
+}
+.pic1:hover , .pic2:hover , .pic3:hover , .pic4:hover {
+    border: rgb(245, 160, 64) 2px solid;
+    cursor: pointer;
+}
+
+.pic4:hover ~ .mainPic {
+    background-image: url(./media/mainPIc.jpg);
+}
+.pic2:hover ~ .mainPic {
+    background-image: url(./media/pic2.jpg);
+}.pic3:hover ~ .mainPic {
+    background-image: url(./media/pic3.jpg);
+}
+
+.frequentItem1 {
+    background-image: url(./media/pic1.jpg);
+}
+.frequentItem2 {
+    background-image: url(./media/relate.jpg);
+}
+.relateBoxImage1{
+background-image: url(./media/relate/relate1.jpg);
+}
+.relateBoxImage2{
+    background-image: url(./media/relate/relate2.jpg);
+}
+.relateBoxImage3{
+    background-image: url(./media/relate/relate3.jpg);
+}
+.relateBoxImage4{
+    background-image: url(./media/relate/relate4.jpg);
+}
+.relateBoxImage5{
+    background-image: url(./media/relate/relate5.jpg);
+}
+.relateBoxImage6{
+    background-image: url(./media/relate/relate6.jpg);
+}
+.sponsbox1 {
+    background-image: url(./media/relate/spons1.jpg);
+}
